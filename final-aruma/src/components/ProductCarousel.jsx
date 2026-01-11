@@ -18,12 +18,12 @@ export default function ProductCarousel({
     <section className="carousel-section">
       <div className="carousel-header">
         <h2>{title}</h2>
-        <span className="view-all">Ver todos</span>
+        <a href="#">Ver todos</a>
       </div>
 
       <div className="carousel-wrapper">
-        <button className="arrow left" onClick={() => scroll("left")}>
-          ‹
+        <button className="btn-arrow" onClick={() => scroll("left")}>
+          🡠
         </button>
 
         <div className="carousel" ref={carouselRef}>
@@ -36,8 +36,8 @@ export default function ProductCarousel({
           ))}
         </div>
 
-        <button className="arrow right" onClick={() => scroll("right")}>
-          ›
+        <button className="btn-arrow" onClick={() => scroll("right")}>
+          🡢
         </button>
       </div>
     </section>

@@ -10,8 +10,9 @@ function ProductCard({ product, setCartCount }) {
       <span className="tag">☆ Lo nuevo</span>
 
       {/*Imagen*/}
-      <img src={product.image} alt={product.name} />
-
+      <div className="image-container">
+        <img src={product.image} alt={product.name} />
+      </div>
       {/*Favorito*/}
       <button
         className="favorite"
@@ -25,13 +26,17 @@ function ProductCard({ product, setCartCount }) {
         className="add-btn"
         onClick={() => setCartCount((prev) => prev + 1)}
       >
-        🛒 Añadir
+        + Añadir
       </button>
 
       {/*Información*/}
-      <h4>{product.brand}</h4>
-      <p>{product.name}</p>
-      <strong>S/ {product.price}</strong>
+      <div>
+        <h4>{product.brand}</h4>
+        <p>{product.name}</p>
+      </div>
+      <div className="price">
+        <strong>S/ {product.price}</strong>
+      </div>
     </div>
   );
 }

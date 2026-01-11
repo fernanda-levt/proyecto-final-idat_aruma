@@ -4,6 +4,7 @@ import bestSellers from "./data/bestSellers";
 import Footer from "./components/Footer"
 import Header from "./components/header/Header"
 import ProductCarousel from "./components/ProductCarousel"
+import Categorybar from "./components/Categorybar";
 
 function App() {
   const [cartCount, setCartCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
         products={newProducts}
         setCartCount={setCartCount}
       />
+      <Categorybar />
       <ProductCarousel
         title="Lo más vendido"
         products={bestSellers}

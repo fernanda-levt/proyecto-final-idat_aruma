@@ -6,6 +6,23 @@ function Footer () {
         {/*RRSS*/}
         <div className="footer-left">
           <h2>Suelta. <span>Disfruta.</span></h2>
+          <div class="social-icons">
+            <a href="https://www.tiktok.com/@aruma.pe" target="_blank" rel="noopener noreferrer" class="btn-icon">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="https://www.instagram.com/aruma.pe/" target="_blank" rel="noopener noreferrer" class="btn-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://pe.linkedin.com/company/arumalindcorp" target="_blank" rel="noopener noreferrer" class="btn-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.youtube.com/@arumape" target="_blank" rel="noopener noreferrer" class="btn-icon">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.facebook.com/arumaperu/" target="_blank" rel="noopener noreferrer" class="btn-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
         </div>
 
         {/*División*/}
