@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #fa0082;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Header*/
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+}
+
+/*Promobar*/
+.top-bar {
+  background: #fa0082;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.top-bar p {
+  margin: 0px;
+}
+
+.top-bar strong {
+  font-weight: 600;
+}
+
+/*Header*/
+.main-header {
+  padding: 4px 0px;
+  background: #ffffff;
+}
+
+.header-content {
+  margin: 10px;
+  padding: 0px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.header-options {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.header-options a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fa0082;
+}
+
+/*Logo*/
+.logo img {
+  width: 140px;
+  height: auto;
+  display: block;
+}
+
+/*Buscador*/
+.search-box {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  width: 800%;
+  height: 20px;
+  border-radius: 30px;
+  border: 1px solid #000000;
+  padding: 10px 45px 10px 20px;
+  font-size: 16px;
+}
+
+/*Barra navegación-menú*/
+.nav-menu {
+  background: #ffe9f3;
+  padding: 10px 60px;
+  text-align: center;
+}
+
+.nav-menu a {
+  display: inline-flex;
+  margin: 0px 18px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  transform: scale(1.05);
+  color: #fa0082;
+}
+
+/*Banner*/
+
+.banner {
+  /*background:
+  linear-gradient(#00000065, #00000065),
+  url(../assets/images/Arumaland.png) center/cover no-repeat;
+  background-position: 50% 30%;*/
+  background-color: #fa0082;
+  height: 300px;
+  margin: 10px 60px;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 46px;
+}
+
+.banner p {
+  font-size: 24px;
+}
+
+/*Productos Nuevos y Más Vendidos*/
+.carousel-section {
+  padding: 40px;
+}
+
+.carousel-header {
+  margin: 0px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.carousel-header h2 {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/*Cajas productos*/
+
+/*Slider*/
+.carousel-wrapper {
+  padding: 0px 60px 30px 60px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/*Flechas*/
+.btn-arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.carousel {
+  display: flex;
+  gap: 25px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 200px;
+  padding: 18px;
+  position: relative;
+  padding-bottom: 60px;
+  box-shadow: 0px 2px 8px #00000015;
+}
+
+/*Botón añadir*/
+.btn-add {
+  position: absolute;
+  bottom: 15px;
+
+  padding: 10px 20px;
+  border: 1px solid #fa0082;
+  border-radius: 50px;
+  background: #ffffff;
+  color: #fa0082;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*Footer*/
+.footer {
+  background: #fa0082;
+  color: white;
+  padding: 10px 60px 20px 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.6fr 1px 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.footer-left h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.footer-left span {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff5c;
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.btn-icon:hover {
+  transform: scale(1.15);
+  background: #ffffff;
+  color: #fa0082;
+}
+
+.divider {
+  width: 1px;
+  background: #ffffff;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.footer-column a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 12px;
+  transition: transform 0.3s;
+  transform-origin: left center;
+}
+
+.footer-column a:hover {
+  transform: scale(1.07);
+  font-weight: 600;
+}
