@@ -5,7 +5,7 @@ function Searchbar () {
 
         <div className="logo img">
           <a href="#">
-            <img src="/icons/logo-aruma-nombre.png"/>
+            <img src={`${import.meta.env.BASE_URL}icons/logo-aruma-nombre.png`} />
           </a>
         </div>
 
